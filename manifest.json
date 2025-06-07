@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Arabic Context Reader",
+  "version": "1.0",
+  "description": "Right-click to read Arabic text aloud.",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png"
+  }
+}
